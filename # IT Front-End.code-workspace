@@ -1,14 +1,7 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"name": "IvanNikulin",
-			"path": "."
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "IvanNikulin"
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
