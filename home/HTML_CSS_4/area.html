@@ -7,21 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin: 20px;">
+    
     <h2 style="padding-left: 40px; color: rgb(159, 127, 255);">Разбор тега "area"</h2>
     <hr>
-    <p>Есть исходная картинка времен года. При помощи тега area преобразуем ее.</p>
-    <p style="font-style: italic;">Исходная картинка:</p>
-    <div><img src="Ramka/1662426727_43-kartinkof-club-p-novie-i-krasivie-kartinki-grozd-vinograda-50.jpg"
-            usemap="#grape" alt="Гроздья синего винограда" height="250" ;></div>
-    <p style="font-style: italic;">Абстрактные геометрические фигуры:</p>
-    <p><map name="grape">
-            <area shape="rect" coords='10,15,50,24' alt="Информация">
-
-        </map>
+    <p>Определяет активные области изображения (может быть разбито на невидимые зоны разной формы), 
+        где каждая из этих областей служит ссылкой. Несколько областей могут перекрывать друг друга, 
+        сверху будет та, которая в коде HTML располагается выше.
+    </p>
+    <p>Тип фигуры активной области:</p>
+    <ul type="circle">
+        <li>rect - прямоугольная фигура активной области.</li>
+        <li>circle - круглая фигура активной области.</li>
+        <li>poly - многоугольная фигура активной области.</li>
+        <li>default - вся область изображения.</li>
+    </ul>
+    <p style= "font-style: italic;">Funny Animals for Kids!</p>
+    <div><img src="images/autumn-forest-animals-pack_23-2148603175.jpg" width="400" height="400" 
+            style="border: solid 1px;" alt="Funny Animals" usemap="#Animals"></div>
+    <p><map name="#Animals">
+        <area shape="circle" coords="90,140,55" 
+            href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%B5" 
+            alt="Owl">
+        <area shape="rect" coords="150,50,240,180" 
+            href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B9%D1%86%D1%8B" 
+            alt="Rabbit">
+        <area shape="rect" coords="250,60,360,180" 
+            href="https://ru.wikipedia.org/wiki/%D0%95%D0%BD%D0%BE%D1%82%D1%8B" 
+            alt="Raccoon">
+        <area shape="circle" coords="75,310,55"
+            href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D0%B8%D1%86%D0%B0"
+            alt="Fox">
+        <area shape="poly" coords="195,210,140,370,250,370"
+            href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D1%8C%D0%B8"
+            alt="Bear">
+        <area shape="rect" coords="260,240,360,370"
+            href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BA%D0%B0"
+            alt="squirrel">       
+    </map></p>
     </p>
 
-
 </body>
-
 </html>
