@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 style="padding-left: 40px;">Кодировка в устаревшем теге "FONT"</h2>
+    <h3 style="padding-left: 20px;">
+        <font color="#BruceWillis">#BruceWillis</font>
+    </h3>
+    <p>Алгоритм следующий:<br>
+        Заменяем все неправильные шестнадцатеричные символы нулями 0, <font color="#BruceWillis">#BruceWillis</font>
+        превращается в b00ce000000<br>
+        “Добиваем” число нулями до количества знаков, делимого на 3, получаем b00c e000 0000<br>
+        Разбиваем на три группы, каждая из которых отвечает за одну компоненту RGB: RGB (b00c, e000, 0000)<br>
+        Обрезаем каждый из аргументов справа, оставляя 2 символа,<br> и получаем наш результат
+        RGB (b0, e0, 00) = <font color="#B0E000">#B0E000</font> или он же RGB(176, 224, 0).
+    </p>
+
+    <h3 style="padding-left: 20px;">
+        <font color="#CANDY">#CANDY</font>
+    </h3>
+    <p>Аналогично:<br>
+        <font color="#CANDY">#CANDY</font> превращается в ca0d0<br>
+        Далее, получаем ca0d 0000 0000<br>
+        RGB (ca0d, 0000, 0000)<br>
+        Результат RGB (ca, 00, 00) = <font color="#CA0000">#CA0000</font> или он же RGB(202, 0, 0).
+    </p>
+
+    <h3 style="padding-left: 20px;">
+        <font color="#chucknorris">#chucknorris</font>
+    </h3>
+    <p>Аналогично:<br>
+        <font color="#chucknorris">#chucknorris</font> превращается в c00c0000000<br>
+        Далее, получаем c00c 0000 0000<br>
+        RGB (c00c, 0000, 0000)<br>
+        Результат RGB (c0, 00, 00) = <font color="#C00000">#C00000</font> или он же RGB(192, 0, 0).
+    </p>
+
+</body>
+
+</html>
