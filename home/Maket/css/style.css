@@ -1,0 +1,18 @@
+.head {
+  width: 1400px;
+  height: 38px;
+  background: #313131;
+  
+  color: white;
+  }
+
+.menu
+{
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
