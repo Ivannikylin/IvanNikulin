@@ -2,13 +2,6 @@
     "folders": [
         {
             "path": "."
-        },
-        {
-            "name": "FD1-214-23",
-            "path": "../FD1-214-23/FD1-214-23"
         }
-    ],
-    "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "IvanNikulin"
-    }
+    ]
 }
