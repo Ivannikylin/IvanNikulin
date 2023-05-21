@@ -1,0 +1,29 @@
+@media all and (max-width: 992px){
+    .header{
+        background-color: rgb(86, 213, 255);
+        color: black;
+    }
+    
+    .container{
+        background-position: right top;
+    }
+
+
+    .menu{
+        float: right;
+        width: 190px;
+    }
+
+    .content{
+        margin-left: 0px;
+        margin-right: 200px;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+    }
+
+    .footer{
+        background-color: rgb(86, 213, 255);
+        color: black;
+    }
+
+}

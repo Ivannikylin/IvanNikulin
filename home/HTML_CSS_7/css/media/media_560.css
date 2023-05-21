@@ -1,0 +1,40 @@
+@media all and (max-width: 560px){
+    .header{
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgb(102, 148, 163);
+    }
+
+    .container{
+        background-image: none;
+    }
+
+    .menu{
+        float: none;
+        background-color: rgb(240, 230, 140);
+        width: auto;
+        padding: 10px 0px 15px 20px;
+        font-size: 12px;
+    }
+
+    div.content > h3{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .content{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0px 10px 5px 10px;
+    }
+
+    .footer{
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgb(102, 148, 163);
+    }
+
+    .imgcup{
+        width: 100%;
+    }
+}

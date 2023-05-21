@@ -1,0 +1,7 @@
+@media print {
+    .content{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
