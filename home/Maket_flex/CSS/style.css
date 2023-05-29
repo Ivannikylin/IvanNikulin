@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+    
+}
+
+.leftmenu{
+    width: 105px;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid white;
+    padding-top: 30px;
+}
+
+.leftmenusmall{
+    margin: 10px auto;
+    display: flex;
+    width: 44px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header{
+    height: 100vh;
+    width: 1920px;
+    background-image: url(../images/main_image.png);
+    background-repeat: no-repeat;
+    padding-left: 105px;
+}
+
+.container{
+    height: 100%;
+    width: 1620px;
+    margin: auto;
+}
+
+.cap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cap1{
+    width: 230px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    
+    
+}
+
+.cap1 > h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cap2{
+    width: 280px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.cap2 > ul > li{
+    display: inline;
+    padding: 8px;
+}
+
+.cap3{
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+button{
+    width: 250px;
+    height: 59px;
+    border-radius: 10px;
+    border: solid 0px;
+    font-size: 12px;
+}
