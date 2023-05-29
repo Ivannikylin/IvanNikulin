@@ -1,0 +1,39 @@
+@media all and (max-width: 550px){
+    .header{
+        display: none;
+    }
+
+    .middle{
+        flex-direction: column-reverse;
+        
+    }
+
+    .middle div:nth-child(1){
+        width: auto;
+    }
+
+    .menu{
+        background-color: transparent;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .menu > ul > li{
+        display: inline-block;
+    }
+
+    .content{
+        background-image: none;
+    }
+
+
+    .footer{
+        display: none;
+    }
+
+    .imgcup{
+        float: none;
+        width: 100%;
+
+    }
+}
