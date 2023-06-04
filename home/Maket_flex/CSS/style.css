@@ -329,8 +329,8 @@ button.third {
     margin: 80px 0px;
     display: flex;
     width: 1620px;
-    gap: 32px
-    
+    gap: 30px;
+    flex-flow: wrap;
 }
 
 .parrent_4_1 {
@@ -341,6 +341,33 @@ button.third {
     width: 744px;
     height: 620px;
     background: #FFCB58;
+    background-image: url(../images/Symbol_1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.parrent_4_1_text{
+    width: 640px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.parrent_4_1 > ul{
+    font-size: 18px;
+    padding:20px 20px;
+    list-style: square;
+}
+
+.parrent_4_1 > ul >li{
+    font-size: 18px;
+    padding: 7px 0px;
+    line-height: 1.8;
+}
+
+.img_4_1{
+    position: relative;
+    right: -324px;
+    bottom: 580px;
 }
 
 .parrent_4_2 {
@@ -351,7 +378,22 @@ button.third {
     width: 408px;
     height: 620px;
     background: #FFCB58;
+    background-image: url(../images/Symbol_2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
 
+.parrent_4_2_text{
+    width: 310px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.img_4_2{
+    position: relative;
+    width: 279px;
+    right: -50px;
+    bottom: -80px;
 }
 
 .parrent_4_3 {
@@ -362,6 +404,23 @@ button.third {
     width: 408px;
     height: 620px;
     background: #000000;
+    background-image: url(../images/Symbol_2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.parrent_4_3_text{
+    width: 310px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.img_4_3{
+    position: relative;
+    width: 217px;
+    right: -95px;
+    bottom: -155px;
 }
 
 .parrent_4_4 {
@@ -372,5 +431,37 @@ button.third {
     width: 520px;
     height: 402px;
     background: #FFCB58;
-    
+    background-image: url(../images/Symbol_4.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.parrent_4_4_text{
+    width: 420px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.parrent_4_4 > ul{
+    font-size: 18px;
+    padding:20px 20px;
+    list-style: square;
+}
+
+.parrent_4_4 > ul >li{
+    font-size: 18px;
+    padding: 7px 0px;
+    line-height: 1.8;
+}
+
+.img_4_4{
+    position: relative;
+    right: -140px;
+    bottom: 15px;
+}
+
+.img_4_5{
+    position: relative;
+    right: -160px;
+    bottom: -20px;
 }
