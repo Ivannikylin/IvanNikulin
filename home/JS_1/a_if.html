@@ -10,11 +10,36 @@
     <script>
         var lastname = prompt ("Введите вашу Фамилию");
         var name = prompt ("Введите ваше Имя");
-        var name2 = prompt ("Введите ваше Отчество");
+        var fathername = prompt ("Введите ваше Отчество");
+        var age_years = prompt ("Ваш возраст в годах");
+        var gender = confirm ("Ваш пол - мужской?");
 
-        alert("ваше ФИО:" + lastname)
+        var fullname = lastname + " " + name + " " + fathername;
+        var age_days = 365 * age_years;
+        var age_years_number = parseInt (age_years);
+        var sum5years = 5 + age_years_number;
 
-
+        if (gender == true) {
+            var your_gender = "мужской";
+                if (age_years < 63) {
+                    var retired = "нет";
+                }
+                else var retired = "да";
+        }
+        
+        else 
+            var your_gender = "женский";
+                if (age_years < 58) {
+                    var retired = "нет";
+                }
+                else var retired = "да";
+                
+        alert ("Ваше ФИО: " + fullname + '\n' + 
+            "Ваш возраст в годах: " + age_years + '\n' + 
+            "Ваш возраст в днях: " + age_days + '\n' +
+            "через 5 лет вам будет: " + sum5years + '\n' +
+            "Ваш пол: " + your_gender + '\n' + 
+            "Вы на пенсии: " + retired )
 
     </script>
 
