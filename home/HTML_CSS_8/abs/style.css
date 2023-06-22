@@ -4,3 +4,47 @@
     box-sizing: border-box;
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.picture{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+img{
+    position: absolute;
+}
+
+img.biohaz{
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+img.m_a_w{
+    top: 0;
+    left: 200px;
+    z-index: 0;
+}
+
+img.in_yn{
+    top: 200px;
+    left: 100px;
+    z-index: 0;
+}
+
+img.no_smok{
+    top: 70px;
+    left: 70px;
+    z-index: 1;
+}
+
+img:hover{
+    z-index: 2;
+}
