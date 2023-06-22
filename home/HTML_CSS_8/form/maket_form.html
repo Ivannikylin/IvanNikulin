@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form method="post" action="http://fe.it-academy.by/TestForm.php">
+        <fieldset>
+            <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+
+            <div class="part">
+                <label type="label">Название статьи:</label>
+                <div class="field">
+                    <input class="article_right" type="text" name="article" 
+                    placeholder="   введите название" id="article">
+                </div>
+            </div>
+
+            <div class="part">
+                <label type="label">Рубрика:</label>
+                <select name="rubrick">
+                    <option value="1">програмирование на Javascript</option>
+                    <option value="2">програмирование на Python</option>
+                    <option value="3">програмирование на C#</option>
+                </select>
+            </div>
+
+            <div class="part">
+                <label type="label">Публикация:</label>
+                <span><input type="radio" name="public" value="1">
+                    на сайте
+                </span>
+                <span><input type="radio" name="public" value="2">
+                    в журнале
+                </span>
+                <span><input type="radio" name="public" value="3">
+                    на сайте и в журнале
+                </span>
+            </div>
+
+            <div class="part">
+                <label type="label">Разрешить комментарии:</label>
+                <input type="checkbox" name="comment" checked>
+            </div>
+
+            <div class="part">
+                <label type="label">Текст статьи:</label>
+                <div class="field">
+                    <textarea name="text"></textarea>
+                </div>
+            </div>
+
+            <div class="part">
+                <input type="submit" value="Опубликовать">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
