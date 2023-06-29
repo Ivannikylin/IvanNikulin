@@ -1,0 +1,25 @@
+@media all and (max-width: 450px) {
+
+    #open.active,
+    #close.active {
+        display: block;
+    }
+
+    #open {
+        display: block;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100px;
+        height: auto;
+        background-color: burlywood;
+        position: absolute;
+        right: -100px;
+        top: 50px;
+        transform: translate(0, 0);
+    }
+
+    #menu.menu__mobile--visible {
+        transform: translate(-100px, 0px);
+    }
