@@ -186,39 +186,21 @@ header {
 }
 
 .part1 {
-    height: 370px;
+    height: 220px;
     width: 1520px;
     padding-top: 80px;
 }
 
 .part1_1>h2 {
-    padding: 15px 0;
+    padding: 10px 0;
+}
+
+.part1_1>p {
+    padding-top: 10px;
 }
 
 .part1_1 {
     padding-bottom: 50px;
-}
-
-.part2 {
-    height: 450px;
-    width: 1520px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.part2_1 {
-    width: 650px;
-}
-
-.icon2 {
-    height: 80px;
-    width: 80px;
-    border: none;
-    border-radius: 12px;
-    background-color: rgba(255, 248, 86, 1);
-    text-align: center;
-    display: block;
 }
 
 .part8 {
@@ -323,6 +305,57 @@ label {
     font-weight: 400;
     display: block;
     width: 520px;
+}
+
+.location {
+    display: inline-block;
+    position: relative;
+    left: 335px;
+    top: -1490px;
+}
+
+.part2 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 70px 0;
+}
+
+.part2_1 {
+    width: 500px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.square {
+    width: 132px;
+    height: 132px;
+    border-radius: 12px;
+    background-color: rgba(255, 248, 86, 1);
+}
+
+.part2_2 {
+    width: 500px;
+    height: 130px;
+}
+
+.part2_2>h3,
+h4 {
+    font-weight: 400;
+}
+.part2_2>h4{
+    padding-top: 20px;
+}
+
+.part3{
+    height: 500px;
+    padding-top: 50px;
+}
+.part3>svg{
+    margin: 25px 40px 20px 0;
 }
 
 .footer {

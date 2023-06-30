@@ -186,7 +186,7 @@ header {
 }
 
 .part1 {
-    height: 370px;
+    height: 250px;
     width: 1520px;
     padding-top: 80px;
 }
@@ -200,26 +200,61 @@ header {
 }
 
 .part2 {
-    height: 450px;
+    height: 1150px;
     width: 1520px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .part2_1 {
-    width: 650px;
+    padding: 90px 0 40px 0;
+}
+
+.part2_1>p {
+    display: inline;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(159, 159, 159, 1);
+}
+
+.part2_1>span {
+    display: inline-block;
+    width: 68px;
+    height: 32px;
+    border-radius: 12px;
+    padding-top: 4px;
+    background-color: rgba(255, 248, 86, 1);
+    color: rgba(22, 32, 95, 1);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.part2_2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1200px;
+    justify-content: space-between;
+
+}
+
+.part2_3 {
+    width: 220px;
+    height: 160px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(196, 196, 196, 0.8);
+    /* Параметры тени */
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon2 {
-    height: 80px;
-    width: 80px;
-    border: none;
-    border-radius: 12px;
-    background-color: rgba(255, 248, 86, 1);
-    text-align: center;
-    display: block;
+    
+
 }
+
 
 .part8 {
     width: 1520px;
