@@ -1,25 +1,305 @@
-@media all and (max-width: 450px) {
+@media all and (max-width: 430px) {
 
     #open.active,
     #close.active {
         display: block;
+        z-index: 3;
+        color: white;
     }
 
     #open {
         display: block;
+        color: inherit;
+        width: 30px;
+        height: 30px;
+        background-image: url(../images_media/Menu.svg);
+        background-repeat: no-repeat;
+        background-color: white ;
     }
 
     #menu {
         flex-direction: column;
-        width: 100px;
-        height: auto;
-        background-color: burlywood;
+        width: 412px;
+        height: 2500px;
+        background-color: white;
         position: absolute;
-        right: -100px;
-        top: 50px;
+        right: -500px;
+        top: 0px;
         transform: translate(0, 0);
+        z-index: 1;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+        background-image: url(../images_media/Close.svg);
+        background-repeat: no-repeat;
+        background-position: 370px 15px;
     }
 
     #menu.menu__mobile--visible {
-        transform: translate(-100px, 0px);
+        transform: translate(-500px, 0px);
+
     }
+
+    #menu li {
+        font-size: 32px;
+        text-align: center;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        padding: 30px 30px;
+
+    }
+
+    #menu li:last-child {
+        display: none;
+    }
+
+    #start {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        height: 54px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(to right, rgba(255, 153, 0, 1), rgba(242, 203, 0, 1));
+        border: none;
+    }
+
+    #five {
+        display: flex;
+        flex-basis: 150px;
+    }
+
+    header {
+        height: 81px;
+        width: 412px;
+        background-color: transparent;
+        background-image: url(../images/logo_1.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
+        position: static;
+        top: 0;
+        padding: 0 10px;
+        z-index: -1;
+        border-bottom: solid 0px;
+
+
+
+    }
+
+    .container {
+        height: 100%;
+        width: 375px;
+        /* background-color: chartreuse; */
+        margin: 81px 20px;
+        border: solid 2 px orange;
+    }
+
+    .part1 {
+        width: 100%;
+        height: 584px;
+        background-color: white;
+        position: relative;
+        top: 106px;
+        border-radius: 0 100px 0 0;
+    }
+
+    .part1text {
+        padding: 0;
+        z-index: -1;
+    }
+
+    .part1text>h1 {
+        font-size: 36px;
+        padding: 100px 0 0 0;
+    }
+
+    .part1text>p {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .picture1 {
+        width: 412px;
+        height: 216px;
+        background-image: url(../images_media/Rectangle_26.jpg);
+        padding-top: 81px;
+        position: relative;
+        left: -20px;
+        top: -660px;
+        z-index: -2;
+    }
+
+    .gradient {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        height: 54px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(to right, rgba(255, 153, 0, 1), rgba(242, 203, 0, 1));
+        border: none;
+    }
+
+    .part_in2 {
+        height: 400px;
+        padding-top: 50px;
+        margin-top: -100px;
+    }
+
+    .part_in2_1>h2 {
+        padding: 15px 0;
+        font-size: 36px;
+    }
+
+
+
+    .part2 {
+        margin-top: 20px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        display: inline;
+    }
+
+    .part2_1 {
+        width: 355px;
+    }
+
+    .icon2 {
+        height: 124px;
+        width: 124px;
+        margin-left: 115px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 12px;
+        background-color: rgba(255, 248, 86, 1);
+        text-align: center;
+        display: flex;
+    }
+
+    .part3 {
+        width: 100%;
+        height: 900px;
+        position: static;
+    }
+
+    .part3_1>h2 {
+        padding: 15px 0;
+        color: white;
+        font-size: 36px;
+    }
+
+    .part3_1>p:last-child {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 90px;
+    }
+
+    .part3_2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .part3_3 {
+        width: 375px;
+        height: 120px;
+        margin: 10px 0;
+
+    }
+
+    .icon3 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .part3_4 {
+        display: none;
+    }
+
+    .part4_2 {
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .part4 {
+        height: 1250px;
+        padding-top: 80px;
+    }
+    .part4_3 {
+        width: 350px;
+        height: auto;
+        text-align: center;
+
+    }
+    .part4_1>h2 {
+        font-size: 36px;
+    }
+    .icon4 {
+        margin-left: 130px ;
+    }
+    .part5 {
+        height: 250px;
+        width: 412px;
+        background-color: rgba(249, 249, 249, 1);
+        position: relative;
+        left: -20px
+    }
+    .part5_1 {
+        padding: 30px 30px 30px 30px;
+    }
+    .part5_1>h2 {
+        font-size: 36px;
+    }
+    .part5_2 {
+        display: none;
+        flex-wrap: wrap;
+        height: 2180px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .part5_3 {
+        width: 375px;
+        height: 93px;
+        background-color: white;
+        background-image: url(../images/Sqpecialized_Staff_We_Provide/Rectangle_162.png);
+        background-repeat: no-repeat;
+        background-position: -16px -12px;
+        border-radius: 12px;
+        padding: 20px 20px 20px 30px;
+        display: flex;
+    }
+
+    .part6 {
+        display: none;
+    }
+    .part7 {
+        display: none;
+    }
+
+    .part8 {
+        width: 375px;
+        height: 450px;
+        margin-top: 100px;
+    }
+    #picture8 {
+        width: 375px;
+        height: auto;
+        padding-top: 0px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    
+}
